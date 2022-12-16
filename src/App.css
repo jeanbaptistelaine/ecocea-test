@@ -1,3 +1,38 @@
 .App {
   text-align: center;
 }
+
+section {
+  text-align: center;
+  width: 90vw;
+  margin: auto;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 300px;
+  border: 1px solid rgb(206, 206, 206);
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.movie-card.selected {
+  border-color: green;
+}
+
+.card-content {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: white;
+}
+.card-footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: whitesmoke;
+}
